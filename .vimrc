@@ -47,6 +47,8 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'othree/html5.vim'
 Plugin 'othree/html5-syntax.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'wavded/vim-stylus'
 
 " Trying
 Plugin 'dbext.vim'
