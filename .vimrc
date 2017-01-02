@@ -33,28 +33,32 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
-Plugin 'tpope/vim-markdown'
+" Plugin 'tpope/vim-markdown'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tyru/open-browser.vim'
 Plugin 'kannokanno/previm'
 Plugin 'godlygeek/tabular'
-Plugin 'ap/vim-css-color'
-Plugin 'groenewege/vim-less'
-Plugin 'hail2u/vim-css3-syntax'
+" Plugin 'ap/vim-css-color'
+" Plugin 'groenewege/vim-less'
+" Plugin 'hail2u/vim-css3-syntax'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'pangloss/vim-javascript'
-Plugin 'othree/html5.vim'
-Plugin 'othree/html5-syntax.vim'
+" Plugin 'pangloss/vim-javascript'
+" Plugin 'othree/html5.vim'
+" Plugin 'othree/html5-syntax.vim'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'wavded/vim-stylus'
+" Plugin 'digitaltoad/vim-jade'
+" Plugin 'wavded/vim-stylus'
 
 " Trying
 Plugin 'dbext.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
-Plugin 'mxw/vim-jsx'
+" Plugin 'mxw/vim-jsx'
+" Plugin 'jwalton512/vim-blade'
+Plugin 'posva/vim-vue'
+Plugin 'sheerun/vim-polyglot'
+set clipboard=unnamed
 
 
 " All of your Plugins must be added before the following line
@@ -73,8 +77,13 @@ syntax on
 :set tabstop=2
 :set shiftwidth=2
 :set expandtab
+autocmd Filetype php setlocal ts=4 sw=4 expandtab
+autocmd Filetype blade setlocal ts=2 sw=2 expandtab
 " :set number
 :set relativenumber " :set rnu
+
+" for tmux
+set t_Co=256
 
 set background=dark
 let g:solarized_termcolors=256
