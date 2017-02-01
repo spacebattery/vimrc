@@ -33,31 +33,34 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
-" Plugin 'tpope/vim-markdown'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tyru/open-browser.vim'
 Plugin 'kannokanno/previm'
 Plugin 'godlygeek/tabular'
-" Plugin 'ap/vim-css-color'
-" Plugin 'groenewege/vim-less'
-" Plugin 'hail2u/vim-css3-syntax'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'nathanaelkane/vim-indent-guides'
-" Plugin 'pangloss/vim-javascript'
-" Plugin 'othree/html5.vim'
-" Plugin 'othree/html5-syntax.vim'
-Plugin 'altercation/vim-colors-solarized'
-" Plugin 'digitaltoad/vim-jade'
-" Plugin 'wavded/vim-stylus'
+" Plugin 'altercation/vim-colors-solarized'
 
 " Trying
 Plugin 'dbext.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
-" Plugin 'mxw/vim-jsx'
-" Plugin 'jwalton512/vim-blade'
 Plugin 'posva/vim-vue'
 Plugin 'sheerun/vim-polyglot'
+
+" Deprecated
+" Plugin 'mxw/vim-jsx'
+" Plugin 'jwalton512/vim-blade'
+" Plugin 'digitaltoad/vim-jade'
+" Plugin 'wavded/vim-stylus'
+" Plugin 'pangloss/vim-javascript'
+" Plugin 'othree/html5.vim'
+" Plugin 'othree/html5-syntax.vim'
+" Plugin 'ap/vim-css-color'
+" Plugin 'groenewege/vim-less'
+" Plugin 'hail2u/vim-css3-syntax'
+" Plugin 'tpope/vim-markdown'
+
 set clipboard=unnamed
 
 
@@ -85,11 +88,11 @@ autocmd Filetype blade setlocal ts=2 sw=2 expandtab
 " for tmux
 set t_Co=256
 
-set background=dark
-let g:solarized_termcolors=256
-let g:solarized_visibility = "high"
-let g:solarized_contrast = "high"
-colorscheme solarized
+" set background=dark
+" let g:solarized_termcolors=256
+" let g:solarized_visibility = "high"
+" let g:solarized_contrast = "high"
+" colorscheme solarized
 
 " airline
 let g:airline_powerline_fonts = 1
