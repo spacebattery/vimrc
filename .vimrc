@@ -113,3 +113,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " jsx
 let g:jsx_ext_required=0
+
+" Hyper cli vim airline fix https://github.com/zeit/hyper/issues/1037
+set t_RV=
