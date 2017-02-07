@@ -47,6 +47,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
 Plugin 'posva/vim-vue'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'tpope/vim-unimpaired'
 
 " Deprecated
 " Plugin 'mxw/vim-jsx'
